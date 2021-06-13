@@ -8,7 +8,6 @@ import { Row, Col } from 'react-bootstrap';
 const Footer = () => {
   return (
     <footer className='footer'>
-      <div className='container'>
         <Row>
           <Col md={12} className="contacts">
             <a href="mailto:nickolaus.carter81@gmail.com" target='_blank' rel='noreferrer'><FontAwesomeIcon icon={faEnvelope} className='icon' size='2x' /></a>
@@ -22,7 +21,6 @@ const Footer = () => {
             <h3>&copy; 2021 Nick Carter</h3>
           </Col>
         </Row>
-      </div>
     </footer>
   )
 };

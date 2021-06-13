@@ -7,12 +7,12 @@ import resume from '../../assets/NickolausCarterResume.pdf'
 const Resume = () => {
     return(
         <section className='mb-5'>
-        <div  className="container mt-3 mb-5">
+        <div className="container mt-3 mb-5">
           <h2 className='title'> Resume</h2>
           <a className='resume' href={resume} target='_blank' rel='noreferrer'>Download Resume</a>
 
           <Row>
-            <Col md={6}>
+            <Col lg={6}>
               <h4 className='title'>Front-End Proficiencies</h4>
               <ul>
                 <li>HTML5</li>

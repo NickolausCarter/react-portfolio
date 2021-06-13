@@ -1,13 +1,12 @@
 import React from 'react';
+import '../../assets/css/home.css';
 
 const Home = () => {
   return (
-    <section id='canvas' className='hero'>
-      <div className='container-fluid'>
-        <h2>Nick Carter</h2>
-        <h3>Web Developer</h3>
+      <div className='home'>
+        <h1>Nick Carter</h1>
+        <h2>Web Developer</h2>
       </div>
-    </section>
   )
 };
 

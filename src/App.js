@@ -4,14 +4,14 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
 import Home from './pages/Home';
-import NavMenu from './components/Nav';
+import Header from './components/Header';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 
 function App() {
   return (
     <Router>
-      <NavMenu />
+      <Header />
       <Switch>
         <Route exact path='/' component={Home} />
         <Route exact path='/about' component={About} />
