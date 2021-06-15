@@ -1,0 +1,58 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0px;
+  background-color: rgb(212, 132, 4);
+  min-height: 71.7vh;
+}
+
+.contact-header {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: rgb(20, 33, 61);
+}
+
+form {
+  width: 90%;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form-label {
+  margin-bottom: 5px;
+}
+
+.input {
+  background-color: rgb(299, 299, 299);
+}
+
+.contact button {
+  background-color: rgb(20, 33, 61);
+  color: rgb(212, 132, 4);
+  border-radius: 5px;
+  border-color: rgb(20, 33, 61);
+  height: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  width: 90%;
+}
+
+@media (min-width: 768px) {
+  form {
+    width: 60%;
+  }
+
+  .contact button {
+    width: 60%;
+  }
+
+  .form-control {
+    padding: 5px;
+  }
+}

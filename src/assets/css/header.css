@@ -20,11 +20,11 @@ header .nav a {
 .menu {
   width: 40px;
   height: 40px;
-  color: rgb(252, 163, 17);
+  color: rgb(212, 132, 4);
 }
 
 header h1 {
-  color: rgb(252, 163, 17);
+  color: rgb(212, 132, 4);
   margin: 0;
 }
 
@@ -38,7 +38,7 @@ header ul li {
 }
 
 header ul li a {
-  color: rgb(252, 163, 17);
+  color: rgb(212, 132, 4);
   text-decoration: none;
 }
 

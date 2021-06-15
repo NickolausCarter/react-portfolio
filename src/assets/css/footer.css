@@ -6,13 +6,9 @@ footer {
 }
 
 footer .icon {
-  color: rgb(252, 163, 17);
+  color: rgb(212, 132, 4);
 }
 
 .icon:first-of-type {
   margin-right: 20px;
-}
-
-h3 {
-  color: rgb(252, 163, 17);
 }

@@ -15,12 +15,6 @@ const Footer = () => {
             <a href="https://www.linkedin.com/in/nickolauscarter/" target='_blank' rel='noreferrer'><FontAwesomeIcon icon={faLinkedin} className='icon' size='2x' /></a>
           </Col>
         </Row>
-
-        <Row>
-          <Col md={12}>
-            <h3>&copy; 2021 Nick Carter</h3>
-          </Col>
-        </Row>
     </footer>
   )
 };
