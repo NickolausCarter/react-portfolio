@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import About from './pages/About';
 import Contact from './pages/Contact';
@@ -8,7 +8,7 @@ import Header from './components/Header';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 
-function App() {
+class App extends Component {
   render() {
     return (
       <Router>
