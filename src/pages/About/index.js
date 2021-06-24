@@ -1,9 +1,11 @@
 import React from 'react';
+import Wrapper from '../../components/Wrapper';
 import headshot from '../../assets/images/nick.jpg';
 import '../../assets/css/about.css';
 
 const About = () => {
   return (
+    <Wrapper>
       <div className='about-me'>
         <h1>Who is Nick Carter?</h1>
         <div className='container'>
@@ -16,6 +18,7 @@ const About = () => {
           </div>
         </div>
       </div>
+    </Wrapper>
   )
 };
 

@@ -12,7 +12,7 @@ import Resume from './pages/Resume';
 class App extends Component {
   render() {
     return (
-      <HashRouter>
+      <HashRouter basename='/'>
         <Header />
         <Wrapper>
           <Route exact path='/' component={Home} />
