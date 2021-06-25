@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <header className='header'>
       <div className='nav'>
-        <a href='/'><h1>Nickolaus Carter</h1></a>
+        <h1>Nickolaus Carter</h1>
         <FontAwesomeIcon
           icon={faBars}
           className='menu'
@@ -23,7 +23,7 @@ const Header = () => {
           <Nav />
         </div>
       </div>
-      { showMenu
+      {showMenu
         ? <div className='mobile-nav'><Nav /></div>
         : null
       }
