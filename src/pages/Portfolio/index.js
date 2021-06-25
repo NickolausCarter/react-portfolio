@@ -8,13 +8,13 @@ const Portfolio = () => {
   return (
     <div className='portfolio'>
       <div className='portfolio-header'>My recent work.</div>
-      <div className='wrapper'>
+      <div className='portfolio-wrapper'>
         {
           portfolioData.portfolio && portfolioData.portfolio.map(item => {
             return (
-              <div className='portfolio-item'>
+              <div className='portfolio-item' key={item.key}>
                 <p>{item.title}</p>
-                <img src={item.image} />
+                <img src={item.image} alt={item.alt} />
                 <div className='item-links'>
                   <a href={item.url} target='_blank' rel='noreferrer'>Link to application</a>
                   <a href={item.github} target='_blank' rel='noreferrer'><FontAwesomeIcon icon={faGithub} className='icon' />Repository</a>

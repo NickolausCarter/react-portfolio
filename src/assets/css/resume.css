@@ -5,6 +5,7 @@
   padding: 30px 0px;
   background-color: rgb(212, 132, 4);
   height: 76vh;
+  min-width: 100%;
 }
 
 .proficiencies li {

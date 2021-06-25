@@ -5,6 +5,7 @@
   padding: 50px 0px;
   background-color: rgb(212, 132, 4);
   min-height: 71.7vh;
+  min-width: 100%;
 }
 
 .contact-header {

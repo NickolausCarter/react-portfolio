@@ -4,6 +4,7 @@
   align-items: center;
   padding: 30px 0px;
   background-color: rgb(212, 132, 4);
+  min-width: 100%;
 }
 
 .portfolio-header {
@@ -14,10 +15,11 @@
   text-align: center;
 }
 
-.wrapper {
+.portfolio-wrapper {
   width: 90%;
   display: flex;
   flex-wrap: wrap;
+
 }
 
 .portfolio-item {
@@ -53,7 +55,7 @@
 }
 
 @media (min-width: 768px) {
-  .wrapper {
+  .portfolio-wrapper {
     gap: 5%;
     justify-content: center;
   }
@@ -76,7 +78,7 @@
     margin-bottom: 30px;
   }
 
-  .wrapper {
+  .portfolio-wrapper {
     width: 80%;
   }
 
