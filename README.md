@@ -27,7 +27,7 @@ This is my professional portfolio to highlight some of my recent work. This webs
 
 ## Website
 
-https://nickolaus-carter-portfolio.herokuapp.com/
+https://nickolauscarter.github.io/react-portfolio
 
 Home Page:\
 ![Home Page](https://user-images.githubusercontent.com/73920328/122291621-a147ac80-ceba-11eb-8e82-2b6453c221b9.png)
